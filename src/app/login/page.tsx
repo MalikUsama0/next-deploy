@@ -24,13 +24,13 @@ export default function Login() {
       <input
         type="text"
         value={name}
-        placeholder="enter user name"
+        placeholder="please enter user name"
         style={{ padding: "8px", margin: "10px 0" }}
         onChange={(e) => seName(e.target.value)}
       />
       <input
         type="password"
-        placeholder="enter password"
+        placeholder=" please enter password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         style={{ padding: "8px", margin: "10px 0" }}
